@@ -115,7 +115,7 @@ I had th help of google and google's ai here becuase I was confused on how to ac
  /* Step 8: Write the selector/rule property to style the .text-block class. */
 
  .text-block {
-     align-items: center;
+     text-align: center;
  }
 
 
@@ -124,9 +124,9 @@ I had th help of google and google's ai here becuase I was confused on how to ac
 @media (min-width: 800px) {
 
      /* step 9 */
-     nav {
-          float: right;
-          padding: 30px 0;
+     nav ul {
+          text-align: right;
+          padding: 30px 0 30px 0;
      }
 
      /* step 10 */
