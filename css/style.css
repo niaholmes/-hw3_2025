@@ -134,19 +134,42 @@ I had th help of google and google's ai here becuase I was confused on how to ac
      }
 
      /* step 11 */
-     .about, .clients, .method-image, .contact-image { 
+     .about { 
+          grid-column: 3 / span 2;
+     }
+
+     .clients {
+          grid-column: 3 / span 2;
+     }
+
+     .method-image {
+          grid-column: 3 / span 2;
+     }
+
+     .contact-image {
           grid-column: 3 / span 2;
      }
 
      /* step 12 */
-     .method, .contact, .about-image, .clients-image { 
+     .method { 
+          grid-column: 2 / span 2;
+     }
+
+     .contact {
+          grid-column: 2 / span 2;
+     }
+
+     .about-image {
+          grid-column: 2 / span 2;
+     }
+
+     .clients-image {
           grid-column: 2 / span 2;
      }
 
      /* step 13 */
      .text-block { 
           max-height: 250px;
-          overflow-y: auto;
      }
 }
 
