@@ -124,7 +124,8 @@ I had th help of google and google's ai here becuase I was confused on how to ac
      /* step 9 */
      nav {
           float: right; 
-          padding: 30px 0
+          padding: 30px 0;
+          width: 100%;
      }
 
      /* step 10 */
@@ -170,6 +171,7 @@ I had th help of google and google's ai here becuase I was confused on how to ac
      /* step 13 */
      .text-block { 
           max-height: 250px;
+          overflow: auto;
      }
 }
 
